@@ -1,9 +1,6 @@
-import { config } from "dotenv";
-config();
-
-export const PORT = process.env.PORT || 3000;
-export const DB_HOST = process.env.MYSQLHOST;
-export const DB_USER = process.env.MYSQLUSER;
-export const DB_PASSWORD = process.env.MYSQLPASSWORD;
-export const DB_DATABASE = process.env.MYSQLDATABASE;
-export const DB_PORT = process.env.MYSQLPORT;
+export const PORT = 3000;
+export const DB_HOST = "containers-us-west-160.railway.app";
+export const DB_USER = "root";
+export const DB_PASSWORD = "B4zTvKr2wjMh4jSO6XLl";
+export const DB_DATABASE = "railway";
+export const DB_PORT = 5779;
